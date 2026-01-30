@@ -1,0 +1,46 @@
+<svg width="350" height="200" viewBox="0 0 350 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble-text {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      font-weight: bold;
+      fill: #333;
+    }
+  </style>
+
+  <g id="firstBubbleGroup">
+    <animate id="firstBubble" attributeName="opacity" values="0;1" dur="1.5s" begin="0s" fill="freeze"/>
+    <path d="
+      M 20 20
+      Q 10 20, 10 30
+      L 10 60
+      Q 10 70, 20 70
+      L 180 70
+      Q 190 70, 190 60
+      L 190 30
+      Q 190 20, 180 20
+      Z
+    " fill="#f1f1f1"/>
+    <text x="25" y="45" font-size="20" class="bubble-text" dominant-baseline="middle">
+      안녕하세요☺️
+    </text>
+  </g>
+  
+  <g id="secondBubbleGroup" opacity="0">
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="firstBubble.end" fill="freeze"/>
+    <path d="
+      M 20 80
+      Q 10 80, 10 90
+      L 10 155
+      Q 10 165, 20 165
+      L 340 165
+      Q 350 165, 350 155
+      L 350 90
+      Q 350 80, 340 80
+      Z
+    " fill="#f1f1f1"/>
+    <text x="25" y="117" font-size="20" class="bubble-text" dominant-baseline="middle">
+      <tspan x="25" dy="0">From 0 to 100,</tspan>
+      <tspan x="25" dy="1.2em">build, break, learn — 그리고 성장합니다!!🚀</tspan>
+    </text>
+  </g>
+</svg>
