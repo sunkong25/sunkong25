@@ -40,7 +40,7 @@
     " fill="#f1f1f1"/>
     <text x="25" y="117" font-size="20" class="bubble-text" dominant-baseline="middle">
       <tspan x="25" dy="0">0에서 100으로,</tspan>
-      <tspan x="25" dy="1.2em">멈추지 않는 새로운 도전!!🚀</tspan>
+      <tspan x="25" dy="1.2em">멈추지 않는 새로운 도전!! 🚀</tspan>
     </text>
   </g>
 </svg>
