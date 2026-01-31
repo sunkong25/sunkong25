@@ -1,6 +1,9 @@
 <div align="center">
-    <img src="https://github.com/sunkong25/sunkong25/blob/master/introduction.svg">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=300&text=Welcome%20to-nl-HyeBin's%20Github👋🏻"/>
 </div>
+<!-- <div align="center">
+    <img src="https://github.com/sunkong25/sunkong25/blob/master/introduction.svg">
+</div> -->
 
 <h3 align="center">⚙️ Tech Stack ⚙️</h3>
 <div align="center">
